@@ -1,3 +1,16 @@
+def seletor_de_opcoes():
+    escolha = "0"
+    while escolha != "":
+        print("Operações Disponíveis")
+        print("=======================\n")
+        print("5-2")
+        print("5-3")
+
+        escolha = input("Que operação deseja fazer: ")
+        match escolha: 
+            case "1": ex5_2()
+            case "2": ex5_3()
+
 
 def ex5_2():
     total = 2
